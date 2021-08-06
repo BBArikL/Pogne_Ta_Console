@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8830803155181386842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8830803155181386840}
+  - component: {fileID: 8830803155181386843}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8830803155181386840
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8830803155181386842}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8830803155181386843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8830803155181386842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1662efea46e28f54183f284de9c2f4f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: PlayerWalk
+    clip: {fileID: 8300000, guid: b0555bed82380f040934caefcffe24a0, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    AudioMixer: {fileID: 24300002, guid: 260b6f361e169ca41b0f68b0151d8e16, type: 2}
+  - name: Door
+    clip: {fileID: 8300000, guid: c55828f719a533847bbb8822aca14a03, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    AudioMixer: {fileID: 24300002, guid: 260b6f361e169ca41b0f68b0151d8e16, type: 2}
+  - name: Theme
+    clip: {fileID: 8300000, guid: 3ab4dea55e6864b4dbca94428b523bee, type: 3}
+    volume: 0.01
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    AudioMixer: {fileID: 24300002, guid: 260b6f361e169ca41b0f68b0151d8e16, type: 2}
+  - name: Wind
+    clip: {fileID: 8300000, guid: 91b172b5b5e6c5e45b03835ece0aef8e, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    AudioMixer: {fileID: 24300002, guid: 260b6f361e169ca41b0f68b0151d8e16, type: 2}
+  - name: Talk
+    clip: {fileID: 8300000, guid: 049426647a94b834283c6f91cbe5472a, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    AudioMixer: {fileID: 24300002, guid: 260b6f361e169ca41b0f68b0151d8e16, type: 2}
+  - name: GameOver
+    clip: {fileID: 8300000, guid: 145d3c79a3882664e8ce87adbcf12ca4, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    AudioMixer: {fileID: 24300002, guid: 260b6f361e169ca41b0f68b0151d8e16, type: 2}
+  - name: Win
+    clip: {fileID: 8300000, guid: 73552d7b20a281d44a84e56f6f75c142, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    AudioMixer: {fileID: 24300002, guid: 260b6f361e169ca41b0f68b0151d8e16, type: 2}
